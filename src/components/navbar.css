@@ -1,0 +1,13 @@
+.nav-container {
+  height: 70px;
+  background-color: #1a202c;
+  align-items: center;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0 30px;
+}
+.nav-container > h1 {
+  font-size: 22px;
+}

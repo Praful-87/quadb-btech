@@ -1,0 +1,45 @@
+.landing-container {
+  height: calc(100vh - 70px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.landing-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 600px;
+}
+.heading {
+  font-size: 39px;
+  margin-bottom: 40px;
+
+  text-transform: capitalize;
+}
+
+.input-field {
+  height: 55px;
+  outline: none;
+  font-size: 16px;
+  padding: 0 12px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #f7fafc;
+}
+.serach-btn {
+  background-color: #1a202c;
+  color: white;
+  font-weight: 700;
+  font-size: 1.24rem;
+  border-radius: 0.25rem;
+  padding: 0.85rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.clr-btn {
+  background-color: #a0aec0;
+  border: none;
+  outline: none;
+}
