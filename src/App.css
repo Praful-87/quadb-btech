@@ -1,0 +1,30 @@
+#input-field {
+  width: 250px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  border: 1px solid gray;
+  padding: 0px 10px;
+  transition: 0.5s;
+  outline: none;
+  letter-spacing: 0.5px;
+}
+#input-field:focus {
+  outline: 1px solid blue;
+}
+.serach-btn {
+  border: none;
+  padding: 10px 14px;
+  background-color: green;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.serach-btn:focus {
+  transform: scale(1.1);
+}
+label {
+  opacity: 0.8;
+  text-transform: capitalize;
+}
