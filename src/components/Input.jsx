@@ -1,8 +1,14 @@
 import "./input.css";
 
-const Input = ({ placeholder, type }) => {
+const Input = ({ value, placeholder, type, onChange }) => {
   return (
-    <input className="input-field" type={type} placeholder={placeholder} />
+    <input
+      onChange={onChange}
+      className="input-field"
+      type={type}
+      placeholder={placeholder}
+      value={value}
+    />
   );
 };
 
