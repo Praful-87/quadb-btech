@@ -1,21 +1,18 @@
-import React from "react";
+import Navbar from "../components/Navbar";
+import Button from "../components/Button";
+import Input from "../components/Input";
 import "./login.css";
 const Login = () => {
   return (
-    <div className="login-container">
+    <div className="login-box">
+      <Navbar text="Login" />
       <div className="login-wrapper">
-        <h1>Login </h1>
-        
-
-        <div className="form-input" >
-          <p className="placeholder">Name</p>
-          <input type="text" />
-        </div>
-        <div className="form-input" >
-          <p className="placeholder">Password</p>
-          <input type="text" />
-        </div>
-        <button>Submit</button>
+        <form action="" className="form">
+          <h1>Welcome back👋</h1>
+          <Input type='text' placeholder='Name' />
+          <Input type='text' placeholder='Password' />
+          <Button type='submit'>Login</Button>
+        </form>
       </div>
     </div>
   );

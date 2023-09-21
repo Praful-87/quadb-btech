@@ -1,4 +1,5 @@
 import Button from "../components/Button";
+import Input from "../components/Input";
 import Navbar from "../components/Navbar";
 import "./landing.css";
 const Landing = () => {
@@ -8,9 +9,9 @@ const Landing = () => {
       <Navbar text="Search jobs" />
       <div className="landing-container">
         <div>
-          <h1 className="heading">looking for a job in</h1>
+          <h1 className="heading">Looking for a job in</h1>
           <div className="landing-wrapper">
-            <input className="input-field" type="text" placeholder="eg. Java" />
+            <Input placeholder="eg. java" type="text" />
             <Button>Search</Button>
             <button className="serach-btn clr-btn">Clear text</button>
           </div>
