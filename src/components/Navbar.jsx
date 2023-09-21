@@ -1,9 +1,9 @@
 import "./navbar.css";
 
-const Navbar = () => {
+const Navbar = ({text}) => {
   return (
     <div className="nav-container">
-      <h1>Search Jobs</h1>
+      <h1>{text}</h1>
     </div>
   );
 };

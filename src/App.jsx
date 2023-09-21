@@ -3,17 +3,15 @@ import "./App.css";
 import { useSelector } from "react-redux";
 import Login from "./pages/Login";
 import Landing from "./pages/Landing";
+import MainRoutes from "./main-routes/MainRoutes";
 
 function App() {
-  const [count, setCount] = useState(0);
-  const data = useSelector((state) => state);
-  console.log(data);
   return (
     <>
-      
-      <Landing />
+      {/* <Landing /> */}
       {/* login */}
       {/* <Login/> */}
+      <MainRoutes />
     </>
   );
 }
