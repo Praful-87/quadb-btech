@@ -6,7 +6,6 @@ import "./landing.css";
 import { useCallback } from "react";
 const Landing = () => {
   const [value, setValue] = useState("");
-  console.log(value);
   const fetchData = useCallback(
     function () {
       console.log(value);
@@ -31,7 +30,9 @@ const Landing = () => {
               type="text"
             />
             <Button onClick={fetchData}>Search</Button>
-            <button className="serach-btn clr-btn">Clear text</button>
+            <button onClick={() => setValue("")} className="serach-btn clr-btn">
+              Clear text
+            </button>
           </div>
         </div>
       </div>
